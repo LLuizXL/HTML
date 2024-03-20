@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luiz-Guilherme</title>
+    <img
+      align="middle"
+      src="https://i.pinimg.com/originals/06/5f/96/065f964192f5608e2d5da46bc0f7e9e4.jpg"
+      width="1260"
+      height="400
+"
+    />
+    <style>
+      body {
+        background: #2d2e33;
+        color: #12db13;
+      }
+      h1 {
+        font-family:fantasy;
+        color: #12db13;
+        text-shadow: 2px 2px 2px black;
+        background: whitesmoke;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NEED FOR SPEED BASEMENT</h1>
+
+    <h2>Alerta de mensagem!</h2>
+
+    <p style="text-align: center">
+      <button onclick="alerta()" style="color: #12db13; background-color: black;">Alerta!</button>
+    </p>
+    <h2>
+      Meu consagrado, poderia alterar a cor do fundo do site clicando em uma das
+      opções abaixo?
+    </h2>
+
+    <p style="text-align: center">
+      <button onclick="trocarVermelho()" style="background-color: red">
+        Vermelhão
+      </button>
+      <button onclick="trocarAzul()" style="background-color: blue">
+        Azulão
+      </button>
+      <button onclick="trocarRoxo()" style="background-color: purple">
+        Roxão
+      </button>
+      <button onclick="trocarVerde()" style="background-color: greenyellow">
+        Verdão
+      </button>
+      <button onclick="originalColor()" style="background-color: #12db13">
+        Default color
+      </button>
+    </p>
+  </body>
+  <script>
+    console.log("hello bro❤️");
+    originalColor = () => {
+      document.getElementsByTagName("body")[0].style.background = "#2d2e33";
+      document.getElementsByTagName("body")[0].style.color = "#12db13";
+
+    }
+    function trocarAzul() {
+      document.getElementsByTagName("body")[0].style.background = "blue";
+    }
+    function trocarVermelho() {
+      document.getElementsByTagName("body")[0].style.background = "red";
+    }
+    function trocarVerde() {
+      document.getElementsByTagName("body")[0].style.background = "green";
+      document.getElementsByTagName("body")[0].style.color = "black";
+      document.getElementsByTagName("h1")[0].style.color = "";
+
+      
+    }
+
+    function trocarRoxo() {
+      document.getElementsByTagName("body")[0].style.background = "purple";
+      document.getElementsByTagName("body")[0].style.color = "whitesmoke"
+      document.getElementsByTagName("h1")[0].style.background = "#2d2e33";
+      
+
+      
+    }
+    alerta = () => {
+      var nome = prompt("Olá, informe seu nome:");
+      alert(`Bem vindo, ${nome}!`);
+    };
+  </script>
+</html>
+
+<!-- document.getElementsByTagName("body")[0].style.background = "#287055" -->

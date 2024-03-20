@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+
+body {
+  background: #b6bbc4;
+  color: #161a30;
+  margin: 0;
+  padding: 0;
+  /* background: url(../img/minimalismo.jpg) no-repeat top/cover */
+}
+a {
+  text-decoration: none;
+  color: #f0ece5;
+}
+.textoCentro {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h2 {
+  text-align: center;
+}
+h1.textoCentro {
+  margin-top: 0;
+  padding: 10px;
+}
+h1 a {
+  background: #31304d;
+  padding: 6px;
+  border: solid 3px #9400ff;
+  border-radius: 30px 0px;
+}
+.fundoLindo {
+  background: #f0ece5;
+}

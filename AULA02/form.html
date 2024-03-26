@@ -7,30 +7,40 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-      <h1 class="textoCentro fundoLindo">
-        <a href="index.html">Home</a>
-        <a href="https://github.com/LLuizXL">GitHub</a>
-        <a href="https://steamcommunity.com/id/rosyroadtoglory">My Steam</a>
-        <a href="https://trackerfn.com/epic/chiefkeefrosy"
-          >FORTNITE Tracker Profile</a
-        >
-      </h1>
-    <form class="textoCentro" action="">
-        <p>
-    
-      <input type="text" size="40" placeholder="Nome:" />
-      <br />
-      <input type="email" size="40" placeholder="Email: " />
-      <br />
-      <textarea
-      name=""
-      id=""
-      cols="40"
-      rows="10"
-      placeholder="Insira sua mensagem:"
-      ></textarea>
-    </p>
-    <input type="submit" value="Enviar">
- </form>
+    <h1 class="textoCentro fundoLindo">
+      <a href="index.html">Home</a>
+      <a href="https://github.com/LLuizXL">GitHub</a>
+      <a href="https://steamcommunity.com/id/rosyroadtoglory">My Steam</a>
+      <a href="https://trackerfn.com/epic/chiefkeefrosy"
+        >FORTNITE Tracker Profile</a
+      >
+    </h1>
+    <form class="textoCentro" onsubmit="console.log(`Enviou`)">
+      <p>
+        <input id="nome" type="text" size="40" placeholder="Nome:" />
+        <br />
+        <input
+          id="Email"
+          type="email"
+          size="40"
+          placeholder="Email: "
+          required
+        />
+        <br />
+        <textarea
+          name=""
+          id="TextoArea"
+          cols="40"
+          rows="10"
+          placeholder="Insira sua mensagem:"
+        ></textarea>
+      </p>
+      <input type="button" onclick="enviar()" 
+      value="Enviar" />
+    </form>
+ <span id="resposta">
+  
+ </span>
   </body>
+  <script src="./js/script.js"></script>
 </html>

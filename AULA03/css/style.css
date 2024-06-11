@@ -1,0 +1,18 @@
+/* Declaração das variáveis sendo Global: "*" */
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Notion: função ":" */
+:root{
+    --bg-url: url(../img/backgroundDarkMode.png)
+}
+
+body{
+    background: var(--bg-url) no-repeat top center / cover;
+    height: 100vh;
+}

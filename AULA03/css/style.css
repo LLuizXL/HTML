@@ -15,7 +15,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(../img/Vector.svg);
+  --switch-bg-url: url(../img/Vector2.svg);
   --highlight-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -26,7 +26,7 @@
   --stroke-color: rgba(78, 232, 75, 0.5);
   --surface-color: rgba(78, 232, 75, 0.1);
   --surface-color-hover: rgba(78, 232, 75, 0.2);
-  --switch-bg-url: url(../img/Vector2.svg);
+  --switch-bg-url: url(../img/vectorSol.svg);
   --highlight-color: rgba(78, 232, 75, 0.3);
 }
 
